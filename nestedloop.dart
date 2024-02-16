@@ -1,8 +1,11 @@
+
+import 'dart:io';
+
 void main(){
-  for (var i = 0; i < 3; i++) {
-    for (var k = 0; k < 5; k++) {
-      print("$i,$k");
+  for (var i = 1; i <5; i++) {
+    for (var k = 1; k <=i; k++) {
+ stdout.write("$k");
     }
-    print('================');
+    print(" ");
   }
 }
